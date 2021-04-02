@@ -47,6 +47,6 @@ basic.forever(function () {
         red = 0
         yellow = 1
         green = 0
-        change_lights()
     }
+    change_lights()
 })
