@@ -1,14 +1,14 @@
 ## What is this?
 
-A program to drive LEDs simulating traffic lights, created for the [BBC micro:bit V2 computer](https://microbit.org) interfaced with an Osoyoo sensors & devices STEM kit.
+A program to to simulate a UK traffic light sequence by illuminating red, yellow and green LEDs when a pushbutton is pressed.  Created for the [BBC micro:bit V2 computer](https://microbit.org) interfaced with an Osoyoo sensors & devices STEM kit.
 
 ## What is a BBC micro:bit?
 
-An [embedded system](https://en.wikipedia.org/wiki/Embedded_system) computer half the size of a credit card.  Code must be written on a computer or a portable device before 'flashing' the program to the micro:bit via a USB cable or Bluetooth.
+An [embedded system](https://en.wikipedia.org/wiki/Embedded_system) computer, with dimensions half the size of a credit card.  Code must be written on a computer or a portable device before 'flashing' the program to the micro:bit via a either USB cable or Bluetooth.
 
 ## How was the program created?
 
-I used the Microsoft MakeCode IDE (blocks of code similar to Scratch) in [the iPhone micro:bit app.](https://apps.apple.com/gb/app/micro-bit/id1092687276).  However, [other apps and languages](https://microbit.org/code/) can be used.
+It uses the Microsoft MakeCode IDE (blocks of code similar to Scratch.) In this case all the coding has used [the iPhone micro:bit app.](https://apps.apple.com/gb/app/micro-bit/id1092687276).  However, [other platforms, apps and languages](https://microbit.org/code/) can be used.
 
 Note: I used only the block editor so be aware that the MicroPython and is not ordered 'neatly'.
 
