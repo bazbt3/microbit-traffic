@@ -16,7 +16,7 @@ Note: I used only the block editor so be aware that the MicroPython and is not o
 
 Various breakout boards are available, but I chose the [Osoyoo STEM Kit for micro:bit.](https://osoyoo.com/2019/06/13/osoyoo-steam-kit-for-microbit/)  The kit comprises the board, 20 sensors & devices, cables with connectors, an IR remote, an instruction CD, all packaged up in a sturdy box.
 
-## The code:
+## Meta
 
 > Open this page at [https://bazbt3.github.io/microbit-traffic/](https://bazbt3.github.io/microbit-traffic/)
 
