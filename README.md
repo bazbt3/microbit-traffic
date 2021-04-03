@@ -1,14 +1,24 @@
+## What is this?
+
+A program to drive LEDs simulating traffic lights, created for the [BBC micro:bit V2 computer](https://microbit.org) interfaced with an Osoyoo sensors & devices STEM kit.
+
+## What is a BBC micro:bit?
+
+An [embedded system](https://en.wikipedia.org/wiki/Embedded_system) computer half the size of a credit card.  Code must be written on a computer or a portable device before 'flashing' the program to the micro:bit via a USB cable or Bluetooth.
+
+## How was the program created?
+
+I used the Microsoft MakeCode IDE (blocks of code similar to Scratch) in [the iPhone micro:bit app.](https://apps.apple.com/gb/app/micro-bit/id1092687276).  However, [other apps and languages](https://microbit.org/code/) can be used.
+
+Note: I used only the block editor so be aware that the MicroPython and is not ordered 'neatly'.
+
+## The Osoyoo interface board and sensors
+
+Various breakout boards are available, but I chose the [Osoyoo STEM Kit for micro:bit.](https://osoyoo.com/2019/06/13/osoyoo-steam-kit-for-microbit/)  The kit comprises the board, 20 sensors & devices, cables with connectors, an IR remote, an instruction CD, all packaged up in a sturdy box.
+
+## The code:
 
 > Open this page at [https://bazbt3.github.io/microbit-traffic/](https://bazbt3.github.io/microbit-traffic/)
-
-## Use as Extension
-
-This repository can be added as an **extension** in MakeCode.
-
-* open [https://makecode.microbit.org/](https://makecode.microbit.org/)
-* click on **New Project**
-* click on **Extensions** under the gearwheel menu
-* search for **https://github.com/bazbt3/microbit-traffic** and import
 
 ## Edit this project ![Build status badge](https://github.com/bazbt3/microbit-traffic/workflows/MakeCode/badge.svg)
 
