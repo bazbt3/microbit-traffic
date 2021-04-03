@@ -2,12 +2,19 @@
 
 A program to to simulate UK traffic lights by illuminating red, yellow and green LEDs in sequence when a pushbutton is pressed.  Created for the [BBC micro:bit V2 computer](https://microbit.org) interfaced with an Osoyoo sensors & devices STEM kit.
 
-The sequence rotates thus:
+The UK sequence rotates thus:
 
 * Red
 * Red & Amber
 * Green
 * Amber
+
+## Enhancements
+
+I've always intended this for my work desk; the next steps will likely be:
+
+* LED brightness to suit ambient light levels
+* Temperature and humidity display
 
 ## What is a BBC micro:bit?
 
