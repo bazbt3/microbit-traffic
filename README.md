@@ -1,6 +1,13 @@
 ## What is this?
 
-A program to to simulate a UK traffic light sequence by illuminating red, yellow and green LEDs when a pushbutton is pressed.  Created for the [BBC micro:bit V2 computer](https://microbit.org) interfaced with an Osoyoo sensors & devices STEM kit.
+A program to to simulate UK traffic lights by illuminating red, yellow and green LEDs in sequence when a pushbutton is pressed.  Created for the [BBC micro:bit V2 computer](https://microbit.org) interfaced with an Osoyoo sensors & devices STEM kit.
+
+The sequence rotates thus:
+
+* Red
+* Red & Amber
+* Green
+* Amber
 
 ## What is a BBC micro:bit?
 
@@ -10,7 +17,7 @@ An [embedded system](https://en.wikipedia.org/wiki/Embedded_system) computer, wi
 
 It uses the Microsoft MakeCode IDE (blocks of code similar to Scratch.) In this case all the coding has used [the iPhone micro:bit app.](https://apps.apple.com/gb/app/micro-bit/id1092687276).  However, [other platforms, apps and languages](https://microbit.org/code/) can be used.
 
-Note: I used only the block editor so be aware that the MicroPython and is not ordered 'neatly'.
+Note: I used only the block editor so be aware that the MicroPython may not be ordered 'neatly'.
 
 ## The Osoyoo interface board and sensors
 
