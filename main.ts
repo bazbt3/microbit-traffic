@@ -49,7 +49,6 @@ let green = 0
 let yellow = 0
 let red = 0
 let state = 0
-let button = 0
 pins.digitalWritePin(DigitalPin.P1, 0)
 pins.digitalWritePin(DigitalPin.P2, 0)
 pins.digitalWritePin(DigitalPin.P8, 0)
