@@ -1,30 +1,15 @@
-function change_lights () {
+function change_states () {
     if (state == 1) {
         state = 3
-        basic.showNumber(state)
     } else if (state == 3) {
         state = 4
-        basic.showNumber(state)
     } else if (state == 4) {
         state = 2
-        basic.showNumber(state)
     } else if (state == 2) {
         state = 1
-        basic.showNumber(state)
     }
 }
-let state = 0
-let red = 0
-pins.digitalWritePin(DigitalPin.P1, 0)
-let yellow = 0
-pins.digitalWritePin(DigitalPin.P2, 0)
-let green = 0
-pins.digitalWritePin(DigitalPin.P8, 0)
-state = 1
-let button = 0
-basic.showString("i")
-basic.pause(1000)
-basic.forever(function () {
+function set_colours () {
     if (state == 1) {
         red = 1
         yellow = 0
@@ -42,6 +27,8 @@ basic.forever(function () {
         yellow = 1
         green = 0
     }
+}
+function write_lights () {
     if (red == 1) {
         pins.digitalWritePin(DigitalPin.P1, 1)
     } else if (red == 0) {
@@ -57,9 +44,21 @@ basic.forever(function () {
     } else if (green == 0) {
         pins.digitalWritePin(DigitalPin.P8, 0)
     }
+}
+let green = 0
+let yellow = 0
+let red = 0
+let state = 0
+let button = 0
+pins.digitalWritePin(DigitalPin.P1, 0)
+pins.digitalWritePin(DigitalPin.P2, 0)
+pins.digitalWritePin(DigitalPin.P8, 0)
+state = 1
+basic.forever(function () {
+    set_colours()
+    write_lights()
     if (input.pinIsPressed(TouchPin.P0)) {
-        basic.showString("B")
-        change_lights()
+        change_states()
         basic.pause(1000)
     }
 })
