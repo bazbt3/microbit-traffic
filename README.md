@@ -30,9 +30,15 @@ Note: I have used only the block editor so be aware that the underlying 'written
 
 Various breakout boards are available, but I chose the [Osoyoo STEM Kit for micro:bit.](https://osoyoo.com/2019/06/13/osoyoo-steam-kit-for-microbit/)  The kit comprises the board, 20 sensors & devices, cables with connectors, an IR remote, an instruction CD, all packaged up in a sturdy box.
 
+## micro:bit pinout documentation
+
+I made the rookie mistake of thinking all the micro:bit and thus the Osoyoo board pins would be addressable identically.  This is not the case.  Here is tge official documentation.
+
+[https://makecode.microbit.org/device/pins](https://makecode.microbit.org/device/pins)
+
 ## Meta
 
-> Open this page at [https://bazbt3.github.io/microbit-traffic/](https://bazbt3.github.io/microbit-traffic/)
+> Open this page at [https://bazbt3.githubhe.io/microbit-traffic/](https://bazbt3.github.io/microbit-traffic/)
 
 ## Edit this project ![Build status badge](https://github.com/bazbt3/microbit-traffic/workflows/MakeCode/badge.svg)
 
