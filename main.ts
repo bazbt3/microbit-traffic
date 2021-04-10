@@ -56,7 +56,7 @@ state = 1
 basic.forever(function () {
     set_colours()
     write_lights()
-    if (input.pinIsPressed(TouchPin.P0)) {
+    if (input.buttonIsPressed(Button.A)) {
         change_states()
         basic.pause(1000)
     }
