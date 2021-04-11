@@ -32,7 +32,7 @@ Various breakout boards are available, but I chose the [Osoyoo STEM Kit for micr
 
 ## micro:bit pinout documentation
 
-I made the rookie mistake of thinking all the micro:bit and thus the Osoyoo board pins would be addressable identically.  This is not the case.  Here is the official documentation.
+I made the rookie mistake of thinking all the micro:bit and thus the Osoyoo board pins would be addressable identically.  This is not the case.  Here is the official documentation:
 
 [https://makecode.microbit.org/device/pins](https://makecode.microbit.org/device/pins)
 
