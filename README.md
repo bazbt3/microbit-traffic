@@ -24,7 +24,7 @@ An [embedded system](https://en.wikipedia.org/wiki/Embedded_system) computer, wi
 
 ## How was the program created?
 
-It uses the Microsoft MakeCode IDE (blocks of code similar to Scratch.) In this case all the coding has used [the iPhone micro:bit app.](https://apps.apple.com/gb/app/micro-bit/id1092687276).  However, [other platforms, apps and languages](https://microbit.org/code/) can be used.
+It uses the Microsoft MakeCode IDE (blocks of code similar to Scratch.) In this case all the coding has used [the iPhone micro:bit app](https://apps.apple.com/gb/app/micro-bit/id1092687276).  However, [other platforms, apps and languages](https://microbit.org/code/) can be used.
 
 Note: I have used only the block editor so be aware that the underlying 'written' code may not be ordered 'neatly'.  *(I originally thought the MicroPython code from the app would be saved here but only the javascript makes it to the repo; see the Main.ts file.)*
 
