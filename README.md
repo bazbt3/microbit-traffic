@@ -9,6 +9,8 @@ The UK sequence rotates thus:
 * Green
 * Amber
 
+![Photo with Lego!](/img/microbit-traffic_photo.jpeg)
+
 ## Enhancements
 
 I've always intended this for my work desk; the next steps will likely be:
