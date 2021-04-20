@@ -1,6 +1,6 @@
 ## What is this?
 
-A program to to simulate UK traffic lights by illuminating red, yellow and green LEDs in sequence when a pushbutton is pressed.  Created for the [BBC micro:bit V2 computer](https://microbit.org) interfaced with an Osoyoo sensors & devices STEM kit.
+A program to simulate UK traffic lights by illuminating red, yellow and green LEDs in sequence when a pushbutton is pressed.  Created for the [BBC micro:bit V2 computer](https://microbit.org) interfaced with an Osoyoo sensors & devices STEM kit.
 
 The UK sequence rotates thus:
 
